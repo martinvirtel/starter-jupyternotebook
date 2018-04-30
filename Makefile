@@ -15,8 +15,7 @@ start:
 		-e NB_GID=$$(id -g)\
 		-u root \
 		--name $(CONTAINERNAME) \
-		-v $$(pwd)/work:/home/jovyan/work \
-		-v $$(pwd)/environment:/envs/local \
+		-v $$(pwd):/home/jovyan/work \
 		$(IMAGENAME)
 
 
