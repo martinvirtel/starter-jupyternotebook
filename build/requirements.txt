@@ -2,6 +2,8 @@ plydata
 boto3
 fastparquet
 python-snappy
+pyarrow
+
 
 
 

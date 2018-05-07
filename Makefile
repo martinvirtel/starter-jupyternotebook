@@ -1,7 +1,9 @@
 
 SHELL := /bin/bash
+ROOT_DIR:= $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
-include config.makefile
+
+include $(ROOT_DIR)/config.makefile
 
 build:
 	cd $(BUILDDIR) ; docker build -t $(IMAGENAME) . 
