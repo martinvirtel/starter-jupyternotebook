@@ -1,6 +1,6 @@
 # starter-jupyternotebook
 
-Customized Jupyter Notebook Dockerfile derived from [these images](https://github.com/jupyter/docker-stacks).
+Customized Jupyter Notebook Server derived from [these Docker images](https://github.com/jupyter/docker-stacks), plus some tooling to use it as a command-line tool.
 
 ## Makefile
 
