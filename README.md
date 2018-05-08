@@ -16,7 +16,7 @@ Command Line utility to use the image from the command line.
 `jupyter.sh start`
 
 
-Starts an instance of the configured image named after the current directory of the built image. The current directory is conveniently mounted at ~/work. Echos the URL so you can access the server in your local browser.
+Starts an instance of the configured image,  named after the current directory. The current directory is conveniently mounted read/write at `~/work` inside the container. Echos the URL so you can access the server in your local browser.
 
 
 `jupyter.sh open this.ipynb` 
